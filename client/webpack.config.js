@@ -20,21 +20,22 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Text Editor",
+        title: "Text Editor"
       }),
 
       new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
+        swSrc: "./src-sw.js",
+        swDest: "src-sw.js",
       }),
       
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Text Editor',
-        short_name: 'Editor',
-        description: 'Take some notes!',
+        name: "Text Editor",
+        short_name: "Editor",
+        description: "Take some notes!",
         background_color: '#225ca3',
+        crossorigin: 'use-credentials',
         theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
@@ -65,7 +66,7 @@ module.exports = () => {
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
           },
-        }
+        },
       ],
     },
   };
