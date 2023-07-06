@@ -64,7 +64,7 @@ The following image shows the application's IndexedDB storage:
 
 You are required to submit the following for review:
 
-* The URL of the deployed application: 
+* The URL of the deployed application: https://prog-web-app-f97b1947cf62.herokuapp.com/
 
 * The URL of the GitHub repository, with a unique name and a README describing the project: https://github.com/floretdemola/pwa-text-editor
 
