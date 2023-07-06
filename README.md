@@ -1,4 +1,4 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# 19 Progressive Web Applications aka Programs With Attitude (PWA): Text Editor
 
 ## Your Task
 
@@ -64,9 +64,9 @@ The following image shows the application's IndexedDB storage:
 
 You are required to submit the following for review:
 
-* The URL of the deployed application
+* The URL of the deployed application: 
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+* The URL of the GitHub repository, with a unique name and a README describing the project: https://github.com/floretdemola/pwa-text-editor
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
